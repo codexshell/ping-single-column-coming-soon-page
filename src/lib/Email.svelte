@@ -2,9 +2,43 @@
 	import Button from '$lib/Button.svelte';
 </script>
 
-<form>
-	<input type="email" name="email" required/>
+<form class="flow">
+	<div class="email">
+		<input type="email" name="email" required placeholder="Your email address..." />
+		<span class="error">Please Provide a valid email address</span>
+	</div>
+
 	<Button />
 </form>
 
-<style></style>
+<style>
+	form {
+		padding-inline: theme('padding.6');
+	}
+
+	input {
+		border: solid theme('colors.s-pale-blue') 0.0625rem;
+		border-radius: theme('borderRadius.full');
+		padding-block: theme('padding[2.5]');
+		padding-left: theme('padding.6');
+		width: 100%;
+		font-size: theme('fontSize.xs');
+	}
+
+	input::placeholder {
+		color: rgba(79, 125, 243, 0.5);
+	}
+
+	span {
+		--flow-space: ;
+		display: block;
+		font-size: theme('fontSize.xs');
+		font-style: italic;
+		color: theme('colors.s-light-red');
+		position: relative;
+	}
+
+	.error {
+		display: none;
+	}
+</style>
