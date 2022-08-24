@@ -11,6 +11,7 @@
 		padding-block: theme('padding.2');
 		font-weight: 600;
 		border: solid theme('colors.p-blue');
+		box-shadow: 0 .5rem .5rem 0 rgba(0, 0, 0, .2);
 	}
 
 	@media (min-width: theme('screens.xl')) {
