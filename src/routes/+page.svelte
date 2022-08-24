@@ -18,6 +18,7 @@
 	section {
 		margin-top: 2.5rem;
 		text-align: center;
+		padding-inline: theme('padding.6');
 	}
 
 	h1 {
