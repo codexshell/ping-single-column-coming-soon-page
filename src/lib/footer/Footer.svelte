@@ -39,7 +39,7 @@
 		cursor: pointer;
 	}
 
-	.social-icon:hover {
+	.social-icon:hover, .social-icon:focus-visible {
 		background-color: theme('colors.p-blue');
 	}
 
@@ -52,11 +52,11 @@
 		font-style: normal;
 	}
 
-	.social-icon:hover i {
+	.social-icon:hover i, .social-icon:focus-visible i {
 		color: theme('colors.white');
 	}
 
-	.social-icon:active i {
+	.social-icon:active i, .social-icon:focus-visible {
 		color: theme('colors.p-blue');
 	}
 
