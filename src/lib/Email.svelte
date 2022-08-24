@@ -14,7 +14,7 @@
 			required
 			placeholder="Your email address..."
 		/>
-		<span class="error">Please Provide a valid email address</span>
+		<span class="error">Please provide a valid email address</span>
 	</div>
 
 	<Button />
