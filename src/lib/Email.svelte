@@ -26,6 +26,25 @@
 		--flow-space: 2rem;
 	}
 
+	@media (min-width: theme('screens.xl')) {
+		form {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: theme('gap.6');
+		}
+	}
+
+	.email {
+		position: relative;
+	}
+
+	@media (min-width: theme('screens.xl')) {
+		.email {
+			flex-basis: 43%;
+		}
+	}
+
 	input {
 		border: solid theme('colors.s-pale-blue') 0.0625rem;
 		border-radius: theme('borderRadius.full');
@@ -33,6 +52,14 @@
 		padding-left: theme('padding.6');
 		width: 100%;
 		font-size: theme('fontSize.xs');
+	}
+
+	@media (min-width: theme('screens.xl')) {
+		input {
+			padding-block: theme('padding[3.5]');
+			font-size: theme('fontSize.base');
+			padding-left: theme('padding.7');
+		}
 	}
 
 	input::placeholder {
@@ -45,11 +72,17 @@
 		font-size: theme('fontSize.xs');
 		font-style: italic;
 		color: theme('colors.s-light-red');
-		position: relative;
 		font-weight: 600;
 	}
 
 	.error {
 		display: none;
+	}
+
+	@media (min-width: theme('screens.xl')) {
+		span {
+			position: absolute;
+			left: 1rem;
+		}
 	}
 </style>

@@ -49,6 +49,12 @@
 		}
 	}
 
+	@media (min-width: theme('screens.xl')) {
+		h1 {
+			font-size: theme('fontSize.5xl');
+		}
+	}
+
 	h1 span {
 		color: theme('colors.n-very-dark-blue');
 		font-weight: 700;
@@ -64,7 +70,19 @@
 		}
 	}
 
+	@media (min-width: theme('screens.xl')) {
+		p {
+			font-size: theme('fontSize.xl');
+		}
+	}
+
 	img {
 		--flow-space: 4rem;
+	}
+
+	@media (min-width: theme('screens.xl'))  {
+		img {
+			--flow-space: 5rem;
+		}
 	}
 </style>
