@@ -27,8 +27,20 @@
 		}
 	}
 
+	@media (min-width: theme('screens.md')) {
+		section {
+			padding-inline: theme('padding.32');
+		}
+	}
+
 	h1 {
 		color: theme('colors.n-gray');
+	}
+
+	@media (min-width: theme("screens.md")) {
+		h1 {
+			font-size: theme("fontSize.2xl");
+		}
 	}
 
 	h1 span {
@@ -38,6 +50,12 @@
 
 	p {
 		font-size: theme('fontSize.xs');
+	}
+
+	@media (min-width: theme("screens.md")) {
+		p {
+			font-size: theme("fontSize.sm")
+		}
 	}
 
 	img {

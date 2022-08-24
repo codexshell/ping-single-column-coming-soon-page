@@ -15,9 +15,15 @@
 		height: theme('height.4');
 	}
 
-	@media (min-width: theme("screens.sm")) {
+	@media (min-width: theme('screens.sm')) {
 		.logo {
-			height: theme("height.5");
+			height: theme('height.5');
+		}
+	}
+
+	@media (min-width: theme('screens.md')) {
+		.logo {
+			height: theme('height.6');
 		}
 	}
 
