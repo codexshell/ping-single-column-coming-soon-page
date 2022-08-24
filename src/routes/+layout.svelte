@@ -18,5 +18,6 @@
 		font-family: theme('fontFamily.libre-franklin');
 		color: theme('colors.n-very-dark-blue');
 		font-size: theme('fontSize.body-copy');
+		padding-top: theme('padding.20');
 	}
 </style>
