@@ -15,6 +15,12 @@
 		height: theme('height.4');
 	}
 
+	@media (min-width: theme("screens.sm")) {
+		.logo {
+			height: theme("height.5");
+		}
+	}
+
 	.logo img {
 		margin-inline: auto;
 		height: 100%;

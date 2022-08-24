@@ -21,6 +21,12 @@
 		padding-inline: theme('padding.6');
 	}
 
+	@media (min-width: theme('screens.sm')) {
+		section {
+			padding-inline: theme('padding.24');
+		}
+	}
+
 	h1 {
 		color: theme('colors.n-gray');
 	}
