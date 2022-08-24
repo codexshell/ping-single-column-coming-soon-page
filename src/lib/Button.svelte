@@ -2,6 +2,7 @@
 
 <style>
 	button {
+    --flow-space: .75rem;
 		background-color: theme('colors.p-blue');
 		width: 100%;
 		border-radius: theme('borderRadius.full');

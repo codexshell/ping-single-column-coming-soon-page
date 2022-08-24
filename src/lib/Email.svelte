@@ -14,6 +14,7 @@
 <style>
 	form {
 		padding-inline: theme('padding.6');
+		--flow-space: 2rem;
 	}
 
 	input {

@@ -33,4 +33,8 @@
 	p {
 		font-size: theme('fontSize.xs');
 	}
+
+	img {
+		--flow-space: 4rem;
+	}
 </style>
