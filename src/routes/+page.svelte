@@ -33,13 +33,19 @@
 		}
 	}
 
+	@media (min-width: theme('screens.lg')) {
+		section {
+			padding-inline: theme('padding.52');
+		}
+	}
+
 	h1 {
 		color: theme('colors.n-gray');
 	}
 
-	@media (min-width: theme("screens.md")) {
+	@media (min-width: theme('screens.md')) {
 		h1 {
-			font-size: theme("fontSize.2xl");
+			font-size: theme('fontSize.2xl');
 		}
 	}
 
@@ -52,9 +58,9 @@
 		font-size: theme('fontSize.xs');
 	}
 
-	@media (min-width: theme("screens.md")) {
+	@media (min-width: theme('screens.md')) {
 		p {
-			font-size: theme("fontSize.sm")
+			font-size: theme('fontSize.sm');
 		}
 	}
 

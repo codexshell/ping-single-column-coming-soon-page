@@ -27,6 +27,12 @@
 		}
 	}
 
+	@media (min-width: theme('screens.lg')) {
+		.logo {
+			height: theme('height.7');
+		}
+	}
+
 	.logo img {
 		margin-inline: auto;
 		height: 100%;
