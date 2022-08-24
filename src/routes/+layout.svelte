@@ -12,4 +12,11 @@
 
 <Footer />
 
-<style></style>
+<style>
+	:global(body) {
+		max-width: 90rem;
+		font-family: theme('fontFamily.libre-franklin');
+		color: theme('colors.n-very-dark-blue');
+		font-size: theme('fontSize.body-copy');
+	}
+</style>
