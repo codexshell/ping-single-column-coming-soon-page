@@ -1,10 +1,13 @@
 <script>
 	import Button from '$lib/Button.svelte';
+	import { handleClick, checkError  } from '$lib/form.js';
+
+	let form;
 </script>
 
-<form class="flow">
+<form bind:this={form} on:submit={handleClick} novalidate class="flow">
 	<div class="email">
-		<input type="email" name="email" required placeholder="Your email address..." />
+		<input on:input={checkError} type="email" name="email" required placeholder="Your email address..." />
 		<span class="error">Please Provide a valid email address</span>
 	</div>
 
@@ -37,6 +40,7 @@
 		font-style: italic;
 		color: theme('colors.s-light-red');
 		position: relative;
+		font-weight: 600;
 	}
 
 	.error {
