@@ -1,38 +1,61 @@
-# create-svelte
+# Frontend Mentor - Ping coming soon page solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Overview
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### The challenge
 
-## Developing
+Users should be able to:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Submit their email address using an `input` field
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
-```bash
-npm run dev
+### Screenshot
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![](./screenshot.png)
 
-## Building
+### Links
 
-To create a production version of your app:
+- Solution URL: [source code](https://github.com/codexshell/ping-single-column-coming-soon-page)
+- Live Site URL: [website](https://ping-single-column-coming-soon-page-snowy.vercel.app/)
 
-```bash
-npm run build
-```
+## My process
 
-You can preview the production build with `npm run preview`.
+### Built with
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [svelte](https://svelte.dev/) - JS library
+- [SvelteKit](https://kit.svelte.dev/) - Svelte framework
+- [tailwind css](https://tailwindcss.com/) - A CSS framework
+
+### Continued development
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+## Author
+
+- Website - [Silvanos Eric](https://codexshell.github.io/)
+- Frontend Mentor - [@codexshell](https://www.frontendmentor.io/profile/codexshell)
+- Twitter - [@codexshell](https://twitter.com/codexshell)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
