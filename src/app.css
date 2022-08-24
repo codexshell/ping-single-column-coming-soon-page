@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.flow :not(:first-child) {
+		margin-top: var(--flow-space, 1rem);
+	}
+}
