@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-	<h1>We are launching <span>soon</span></h1>
+	<h1>We are launching <span>soon!</span></h1>
 	<p>Subscribe and get notified</p>
 	<Email />
 	<img src="/illustration-dashboard.png" alt="illustration dashboard" />
