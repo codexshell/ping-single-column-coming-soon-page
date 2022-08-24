@@ -1,14 +1,16 @@
-<script></script>
+<script>
+	import { onKeyDown, onKeyUp } from '$lib/form.js';
+</script>
 
 <footer class="flow">
 	<div class="social-icons">
-		<div tabindex="0" class="social-icon">
+		<div on:keydown={onKeyDown} on:keyup={onKeyUp} tabindex="0" class="social-icon">
 			<i class="fa-brands fa-facebook-f" />
 		</div>
-		<div tabindex="0" class="social-icon">
+		<div on:keydown={onKeyDown} on:keyup={onKeyUp} tabindex="0" class="social-icon">
 			<i class="fa-brands fa-twitter" />
 		</div>
-		<div tabindex="0" class="social-icon">
+		<div on:keydown={onKeyDown} on:keyup={onKeyUp} tabindex="0" class="social-icon">
 			<i class="fa-brands fa-instagram" />
 		</div>
 	</div>
@@ -39,7 +41,7 @@
 		cursor: pointer;
 	}
 
-	.social-icon:hover, .social-icon:focus-visible {
+	.social-icon:hover {
 		background-color: theme('colors.p-blue');
 	}
 
@@ -52,11 +54,11 @@
 		font-style: normal;
 	}
 
-	.social-icon:hover i, .social-icon:focus-visible i {
+	.social-icon:hover i {
 		color: theme('colors.white');
 	}
 
-	.social-icon:active i, .social-icon:focus-visible {
+	.social-icon:active i {
 		color: theme('colors.p-blue');
 	}
 

@@ -42,3 +42,25 @@ export function checkError(event) {
 		removeErrrors(element);
 	}
 }
+
+export function onKeyDown(event) {
+	if (event.key === 'Enter' || event.key === ' ') {
+		const div = event.target;
+		const icon = div.firstElementChild;
+
+		// swap colors
+		div.style.backgroundColor = 'hsl(223, 87%, 63%)';
+		icon.style.color = 'white';
+	}
+}
+
+export function onKeyUp(event) {
+	if (event.key === 'Enter' || event.key === ' ') {
+		const div = event.target;
+		const icon = div.firstElementChild;
+
+		// swap colors
+		div.style.backgroundColor = 'white';
+		icon.style.color = 'hsl(223, 87%, 63%)';
+	}
+}
