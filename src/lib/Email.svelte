@@ -1,13 +1,19 @@
 <script>
 	import Button from '$lib/Button.svelte';
-	import { handleClick, checkError  } from '$lib/form.js';
+	import { handleClick, checkError } from '$lib/form.js';
 
 	let form;
 </script>
 
 <form bind:this={form} on:submit={handleClick} novalidate class="flow">
 	<div class="email">
-		<input on:input={checkError} type="email" name="email" required placeholder="Your email address..." />
+		<input
+			on:input={checkError}
+			type="email"
+			name="email"
+			required
+			placeholder="Your email address..."
+		/>
 		<span class="error">Please Provide a valid email address</span>
 	</div>
 
