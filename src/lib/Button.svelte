@@ -19,7 +19,7 @@
 			--flow-space: ;
 			padding-block: theme('padding[3.5]');
 			font-size: theme('fontSize.base');
-			flex-basis: 20%;
+			flex-basis: 30%;
 		}
 	}
 

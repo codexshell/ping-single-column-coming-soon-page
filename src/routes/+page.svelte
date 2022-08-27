@@ -39,6 +39,12 @@
 		}
 	}
 
+	@media (min-width: theme('screens.xl')) {
+		section {
+			padding-inline: theme('padding.80');
+		}
+	}
+
 	h1 {
 		color: theme('colors.n-gray');
 	}
@@ -80,7 +86,7 @@
 		--flow-space: 4rem;
 	}
 
-	@media (min-width: theme('screens.xl'))  {
+	@media (min-width: theme('screens.xl')) {
 		img {
 			--flow-space: 5rem;
 		}

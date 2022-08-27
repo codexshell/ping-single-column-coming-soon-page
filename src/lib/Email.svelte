@@ -31,7 +31,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			gap: theme('gap.6');
+			gap: theme('gap.8');
 		}
 	}
 
@@ -41,7 +41,7 @@
 
 	@media (min-width: theme('screens.xl')) {
 		.email {
-			flex-basis: 43%;
+			flex-basis: 70%;
 		}
 	}
 
